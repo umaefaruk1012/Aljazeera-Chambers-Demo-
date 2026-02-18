@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  background: #f7f8fa;
+  color: #1f1f1f;
+  line-height: 1.6;
+}
+
+header {
+  background: #0b1f3a;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 25px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: linear-gradient(to right, #0b1f3a, #1c3c6b);
+  color: #fff;
+  padding: 90px 60px;
+}
+
+.hero h2 {
+  font-size: 44px;
+  max-width: 700px;
+}
+
+.hero p {
+  max-width: 600px;
+  font-size: 18px;
+  opacity: 0.95;
+}
+
+section {
+  padding: 70px 60px;
+}
+
+.section-title {
+  font-size: 30px;
+  color: #0b1f3a;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+footer {
+  background: #0b1f3a;
+  color: #fff;
+  text-align: center;
+  padding: 30px 60px;
+}
+
+/* ============================= */
+/* INNER PAGE HERO */
+/* ============================= */
+
+.page-hero {
+  background: #0b1f3a;
+  color: white;
+  padding: 60px;
+  text-align: center;
+}
+
+.page-hero h2 {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+.page-hero p {
+  font-size: 17px;
+  opacity: 0.9;
+}
+
+/* ============================= */
+/* PRACTICE AREA CARDS */
+/* ============================= */
+
+.practice-card h3 {
+  margin-top: 0;
+  color: #0b1f3a;
+  font-size: 20px;
+}
+
+.practice-card p {
+  font-size: 15px;
+  opacity: 0.85;
+}
+
+/* ============================= */
+/* ATTORNEY PROFILE CARDS */
+/* ============================= */
+
+.attorney-card strong {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #0b1f3a;
+}
+
+.attorney-card span {
+  font-size: 14px;
+  color: #444;
+}
+
+.attorney-card p {
+  margin-top: 12px;
+  font-size: 15px;
+  opacity: 0.85;
+}
+
+/* ============================= */
+/* CONTACT FORM */
+/* ============================= */
+
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+}
+
+.contact-form textarea {
+  height: 120px;
+}
+
+.contact-form button {
+  margin-top: 15px;
+  padding: 12px 20px;
+  background: #d4af37;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.contact-details p {
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.booking-form {
+  margin-top: 20px;
+  display: grid;
+  gap: 15px;
+}
+
+.booking-form input,
+.booking-form select {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+}
+
+.booking-form button {
+  background: #d4af37;
+  border: none;
+  padding: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.booking-form button:hover {
+  opacity: 0.9;
+}
+
+
+/* ============================= */
+/* CLIENT PORTAL USP SECTION */
+/* ============================= */
+
+.portal-highlight {
+  border-left: 6px solid #d4af37;
+}
+
+.portal-highlight h3 {
+  margin-top: 0;
+  color: #0b1f3a;
+  font-size: 22px;
+}
+
+.portal-highlight p {
+  font-size: 15.5px;
+  opacity: 0.9;
+}
+
+.portal-features ul {
+  padding-left: 20px;
+  margin-top: 15px;
+}
+
+.portal-features li {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.portal-btn {
+  margin-top: 20px;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 6px;
+  background: #0b1f3a;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.portal-btn:hover {
+  opacity: 0.9;
+}
